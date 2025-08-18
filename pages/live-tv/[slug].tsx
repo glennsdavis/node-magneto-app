@@ -20,7 +20,7 @@ export default function Page({ content }: InferGetServerSidePropsType<typeof get
     return (
         <>
             <Head>
-                <title>{`{content.name} | Live TV`}</title>
+                <title>{content.name} | Live TV</title>
                 <meta name="description" content={content.description} />
             </Head>
             <main>
